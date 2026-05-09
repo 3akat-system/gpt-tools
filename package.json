@@ -1,0 +1,15 @@
+{
+  "name": "gpt-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GPT API утилиты для vault",
+  "scripts": {
+    "whisper": "node whisper.js",
+    "extract": "node extract.js",
+    "dalle": "node dalle.js",
+    "usage": "node usage.js"
+  },
+  "dependencies": {
+    "openai": "^4.85.0"
+  }
+}
